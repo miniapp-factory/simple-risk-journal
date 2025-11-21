@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import type { JSX } from "react";
 
 export default function Journal(): JSX.Element {
   const [notes, setNotes] = useState<string[]>([]);
